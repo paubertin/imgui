@@ -10,13 +10,14 @@ project "ImGui"
         "imconfig.h",
         "imgui.h",
         "imgui.cpp",
+        "imgui_demo.cpp",
         "imgui_draw.cpp",
         "imgui_internal.h",
-        "imgui_widgets.cpp",
         "imgui_rectpack.h",
+        "imgui_tables.cpp",
         "imgui_textedit.h",
         "imgui_truetype.h",
-        "imgui_demo.cpp",
+        "imgui_widgets.cpp"
     }
 
 	filter "system:windows"
